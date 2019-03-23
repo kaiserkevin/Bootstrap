@@ -204,13 +204,35 @@
 
 
 			<ul class="nav nav-tabs">
-				<li class="active"><a href="#credito"  data-toggle="tab"><h4>Cartão de crédito</h4></a></li>
-				<li><a href="#boleto" data-toggle="tab"><h4>Boleto</h4></a></li>	
+				<li class="active"><a href="#credito"  data-toggle="tab"><h4>Cadastre-se</h4></a></li>
+				<li><a href="#boleto" data-toggle="tab"><h4>Já sou usuário</h4></a></li>	
 			</ul>
 			<div class="tab-content">
-				<div id="credito" class="tab-pane active in fade">kevin</div>
-				<div id="boleto" class="tab-pane fade">kaiser</div>
+				<div id="credito" class="tab-pane active in fade">
+					<br/><br/>
+					<form method="post">
+						<label>E-mail</label><br/>
+						<input type="email" name="email"><br/><br/>
+						<label>Senha</label><br/>
+						<input type="password" name="senha"><br/><br/>
+						<input type="submit" name="enviar"> 	
+					</form>
+				</div>
+				<div id="boleto" class="tab-pane fade">
+					<br/><br/>
+					<form method="post">
+						<div class="form-group">
+							<label>E-mail</label><br/>
+							<input class="form-control" type="email" name="email">
+						</div>
+						<div class="form-group">
+							<label>Senha</label><br/>
+							<input class="form-control" type="password" name="senha"><br/>
+						<input class="btn btn-success" type="submit" name="enviar"> 	
+						</div>
+					</form></div>
 			</div>
+			
 		<br/>
 		<br/>
 		<br/>
